@@ -35,7 +35,7 @@ class TodoRepository
         return $todo->update($data);
     }
 
-    public function delete(string $identify, array $data)
+    public function delete(string $identify)
     {
         $todo = $this->getTodo($identify);
 
