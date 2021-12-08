@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "075b44bb-3bc4-40dc-a283-2a2b1da2d811",
+		"name": "laravel-8-to-do",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8180/todos/2",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8180/todos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8180",
+					"path": [
+						"todos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
